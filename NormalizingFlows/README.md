@@ -35,4 +35,22 @@ What are the conditions or where to be careful?
 
 
 What to add to this?
-scaling, shearing, twisting, or rotating: these are one type of transformation. **Affine coupling layers can do complex non linear transformation while preserving invertibility** (requires us to understand the equations of NF and Loss function)
+scaling, shearing, twisting, or rotating: these are one type of transformation. **Affine coupling layers can do complex non linear transformation while preserving invertibility** (requires us to understand the equations of NF and Loss function). 
+Where do we use the training part?
+How do we get loss functions?
+How do we ensure latent space is simple distribution? (the role of determinant of Jacobian)
+Why use coupling?(difficult determinants)
+
+
+
+
+I will add this later. I want to make it as simple as possible because when I learn't this I didn't know what Jacobian is, only to later realize it is a beautiful thing which expresses the rate of change of one coordinate frame to another. So I am going to make it very simple and easy to understand and want everyone to enjoy the core of it!
+
+
+**References**
+
+https://transform.softwareunderground.org/2022-julia-for-geoscience/normalizing-flow-training 
+
+https://deepgenerativemodels.github.io/notes/flow/ - We have to learn change of variables formula which is the core of Normalizing flows. 
+
+https://grishmaprs.medium.com/normalizing-flows-5b5a713e45e2  -Very nicely explained
