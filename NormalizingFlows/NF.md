@@ -35,11 +35,12 @@ What are the conditions or where to be careful?
 
 
 What to add to this?
-scaling, shearing, twisting, or rotating: these are one type of transformation. **Affine coupling layers can do complex non linear transformation while preserving invertibility** (requires us to understand the equations of NF and Loss function). 
+The math behind NF. How do we get loss functions?
+Scaling, shearing, twisting, or rotating: these are one type of transformation. **Affine coupling layers can do complex non linear transformation while preserving invertibility** (requires us to understand the equations of NF and Loss function). 
 Where do we use the training part?
-How do we get loss functions?
 How do we ensure latent space is simple distribution? (the role of determinant of Jacobian)
 Why use coupling?(difficult determinants)
+
 
 
 
