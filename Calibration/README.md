@@ -60,4 +60,4 @@ center along "v" will usually be total_height/2.
 And z = f**
 
 
-How do we find focal length and principal point? 
+How do we find focal length and principal point? [more info](Calibration.md)
